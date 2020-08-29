@@ -1,0 +1,26 @@
+{
+  "name": "filling-station-backend",
+  "version": "1.0.0",
+  "description": "API for app of filling station",
+  "main": "dist/shared/infra/http/server.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/onlyreynaldo/filling-backend.git"
+  },
+  "keywords": [
+    "typescript",
+    "gas",
+    "station",
+    "filling",
+    "statio"
+  ],
+  "author": "Reynaldo Layme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onlyreynaldo/filling-backend/issues"
+  },
+  "homepage": "https://github.com/onlyreynaldo/filling-backend#readme"
+}
