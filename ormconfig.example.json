@@ -1,0 +1,27 @@
+[
+  {
+    "name": "default",
+    "type": "mongodb",
+    "url": "mongodb+srv://dbUser:<password>@<database>.mongodb.net/test?retryWrites=true&w=majority",
+    "useNewUrlParser": true,
+    "synchronize": true,
+    "useUnifiedTopology": true,
+    "logging": true,
+    "ssl": true,
+    "entities": [
+      "./src/modules/**/infra/typeorm/schemas/*.ts"
+    ]
+  }, {
+    "name": "mongo_dev",
+    "type": "mongodb",
+    "url": "mongodb+srv://dbUser:<password>@<database>.mongodb.net/test?retryWrites=true&w=majority",
+    "useNewUrlParser": true,
+    "synchronize": true,
+    "useUnifiedTopology": true,
+    "logging": true,
+    "ssl": true,
+    "entities": [
+      "./src/modules/**/infra/typeorm/schemas/*.ts"
+    ]
+  }
+]
